@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#0A0A0A" />
+  
+  <circle cx="1280" cy="720" r="600" fill="#2E5A8C" opacity="0.05" filter="blur(100px)"/>
+
+  <g transform="translate(72, 56)">
+    <use data-icon="tabler-outline/shield-check" x="0" y="0" width="48" height="48" fill="#F2F2F2" stroke-width="1.5"/>
+    <text x="64" y="36" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="44" font-weight="bold" fill="#F2F2F2">核心壁垒: 透明可追溯的合规双通道审查</text>
+  </g>
+
+  <!-- Flowchart Diagram -->
+  <g transform="translate(72, 160)">
+    <!-- LLM Channel -->
+    <rect x="0" y="0" width="520" height="220" rx="6" fill="#111111" stroke="#333333" stroke-width="1" />
+    <use data-icon="tabler-outline/box-model" x="236" y="30" width="48" height="48" fill="#B3B3B3" stroke-width="1.5"/>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="260" y="120">通道一: 大模型辅助</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" text-anchor="middle" x="260" y="160">进行自由文本分析，生成综合报告</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" text-anchor="middle" x="260" y="196">处理模糊语义意图，快速了解整体情况</text>
+
+    <!-- Rule Engine Channel -->
+    <rect x="616" y="0" width="520" height="220" rx="6" fill="#111111" stroke="#333333" stroke-width="1" />
+    <use data-icon="tabler-outline/engine" x="852" y="30" width="48" height="48" fill="#B3B3B3" stroke-width="1.5"/>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="876" y="120">通道二: 规则引擎 (最核心)</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" text-anchor="middle" x="876" y="160">拒绝黑箱：不依赖大模型，避免幻觉</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" text-anchor="middle" x="876" y="196">正则提取客观事实，精准匹配法规生成风险项</text>
+
+    <!-- Convergence Arrows -->
+    <use data-icon="tabler-outline/arrow-down" x="538" y="240" width="60" height="60" fill="#666666" stroke-width="1.5"/>
+
+    <!-- Bottom Result -->
+    <rect x="0" y="320" width="1136" height="150" rx="6" fill="#141414" stroke="#333333" stroke-width="1" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="568" y="380">透明可回溯的 <tspan fill="#4A90D9" font-size="36">0-100</tspan> 合规审查打分体系</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" text-anchor="middle" x="568" y="430">推理链条完全透明：要素提取 -> 法规匹配 -> 交叉核验 -> 风险评级</text>
+  </g>
+
+  <text x="72" y="690" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#666666">三会智理 | 路演汇报</text>
+  <text x="1208" y="690" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#666666" text-anchor="end">05</text>
+</svg>

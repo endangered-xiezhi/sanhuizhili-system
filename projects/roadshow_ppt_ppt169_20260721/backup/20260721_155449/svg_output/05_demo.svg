@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#1A1A24" />
+  
+  <!-- Header -->
+  <g transform="translate(60, 50)">
+    <use data-icon="tabler-outline/check" x="0" y="0" width="36" height="36" fill="#1565C0" stroke-width="2"/>
+    <text x="50" y="28" font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#F8F9FA">典型使用场景</text>
+    <line x1="0" y1="50" x2="1160" y2="50" stroke="#3A3A4A" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(60, 140)">
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#F8F9FA">
+      <tspan x="580" y="30" text-anchor="middle">满足议题申报、会议表决、会后归档全流程。</tspan>
+    </text>
+  </g>
+  
+  <!-- 3 Cards Layout -->
+  <!-- Card 1 -->
+  <g transform="translate(60, 240)">
+    <rect x="0" y="0" width="360" height="340" rx="12" fill="#2A2A38" />
+    <circle cx="180" cy="80" r="40" fill="#1E3A5F" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#1565C0">
+      <tspan x="180" y="93" text-anchor="middle">1</tspan>
+    </text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#F8F9FA">
+      <tspan x="180" y="160" text-anchor="middle">议题智能审查</tspan>
+    </text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#B0B0C0">
+      <tspan x="40" y="220">自动识别议题文本中的风险点</tspan>
+      <tspan x="40" dy="30">拦截程序瑕疵和红线问题</tspan>
+      <tspan x="40" dy="30">输出合规建议报告</tspan>
+    </text>
+  </g>
+  
+  <!-- Card 2 -->
+  <g transform="translate(460, 240)">
+    <rect x="0" y="0" width="360" height="340" rx="12" fill="#2A2A38" />
+    <circle cx="180" cy="80" r="40" fill="#1E3A5F" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#1565C0">
+      <tspan x="180" y="93" text-anchor="middle">2</tspan>
+    </text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#F8F9FA">
+      <tspan x="180" y="160" text-anchor="middle">决议自动生成</tspan>
+    </text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#B0B0C0">
+      <tspan x="40" y="220">根据表决结果动态排版</tspan>
+      <tspan x="40" dy="30">一键生成标准格式决议文件</tspan>
+      <tspan x="40" dy="30">大幅减少文书撰写时间</tspan>
+    </text>
+  </g>
+  
+  <!-- Card 3 -->
+  <g transform="translate(860, 240)">
+    <rect x="0" y="0" width="360" height="340" rx="12" fill="#2A2A38" />
+    <circle cx="180" cy="80" r="40" fill="#1E3A5F" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#1565C0">
+      <tspan x="180" y="93" text-anchor="middle">3</tspan>
+    </text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#F8F9FA">
+      <tspan x="180" y="160" text-anchor="middle">历史风险关联</tspan>
+    </text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#B0B0C0">
+      <tspan x="40" y="220">与过往类似议题进行数据比对</tspan>
+      <tspan x="40" dy="30">揭示潜在的累积性风险</tspan>
+      <tspan x="40" dy="30">形成企业治理数字资产池</tspan>
+    </text>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090">三会智理 | 路演汇报</text>
+  <text x="1220" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090" text-anchor="end">05</text>
+</svg>

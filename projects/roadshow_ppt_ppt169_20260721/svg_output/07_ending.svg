@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  
+  <image href="../images/cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+  <rect x="0" y="0" width="1280" height="720" fill="url(#heroGradient)" />
+  
+  <circle cx="1280" cy="720" r="600" fill="#2E5A8C" opacity="0.05" filter="blur(100px)"/>
+
+  <g transform="translate(640, 300)">
+    <text x="0" y="0" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="72" font-weight="bold" fill="#F2F2F2" text-anchor="middle">谢谢聆听，敬请批评指正</text>
+    
+    <rect x="-60" y="40" width="120" height="4" fill="#4A90D9" />
+    
+    <text x="0" y="120" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="36" fill="#B3B3B3" text-anchor="middle">三会智理：将重复繁琐自动化，提高沟通效率</text>
+  </g>
+</svg>

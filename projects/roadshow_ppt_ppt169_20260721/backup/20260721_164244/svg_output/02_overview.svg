@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#0A0A0A" />
+  
+  <circle cx="1280" cy="720" r="600" fill="#2E5A8C" opacity="0.05" filter="blur(100px)"/>
+
+  <g transform="translate(72, 56)">
+    <use data-icon="tabler-outline/box-model" x="0" y="0" width="48" height="48" fill="#F2F2F2" stroke-width="1.5"/>
+    <text x="64" y="36" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="44" font-weight="bold" fill="#F2F2F2">产品概述: 全栈驱动与飞书数据中台</text>
+  </g>
+
+  <!-- Flowchart: Architecture -->
+  <g transform="translate(72, 160)">
+    <!-- Frontend -->
+    <rect x="0" y="0" width="300" height="200" rx="6" fill="#111111" stroke="#333333" stroke-width="1" />
+    <use data-icon="tabler-outline/server" x="120" y="40" width="60" height="60" fill="#4A90D9" stroke-width="1.5"/>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="150" y="140">全栈 Web 应用</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" text-anchor="middle" x="150" y="176">React + Express</text>
+
+    <!-- Arrow -->
+    <use data-icon="tabler-outline/arrow-right" x="332" y="70" width="60" height="60" fill="#666666" stroke-width="1.5"/>
+
+    <!-- Dashboard -->
+    <rect x="424" y="0" width="300" height="200" rx="6" fill="#111111" stroke="#333333" stroke-width="1" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="574" y="80">全局控制台 Dashboard</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#F2F2F2" text-anchor="middle" x="574" y="126">核心指标监控 + 日历视图</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" text-anchor="middle" x="574" y="162">临期预警与合规指数</text>
+
+    <!-- Arrow -->
+    <use data-icon="tabler-outline/arrow-right" x="756" y="70" width="60" height="60" fill="#666666" stroke-width="1.5"/>
+
+    <!-- Backend / Data -->
+    <rect x="848" y="0" width="300" height="200" rx="6" fill="#111111" stroke="#333333" stroke-width="1" />
+    <use data-icon="tabler-outline/database" x="968" y="40" width="60" height="60" fill="#4A90D9" stroke-width="1.5"/>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="998" y="140">飞书多维表格</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" text-anchor="middle" x="998" y="176">实时读写的核心数据</text>
+  </g>
+
+  <!-- Big Summary Bottom Box -->
+  <g transform="translate(72, 440)">
+    <rect x="0" y="0" width="1148" height="120" rx="6" fill="#141414" stroke="#333333" stroke-width="1" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="bold" fill="#4A90D9" text-anchor="middle" x="574" y="68">非孤立数据库架构：与企业现有系统和人员无缝协同</text>
+  </g>
+
+  <text x="72" y="690" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#666666">三会智理 | 路演汇报</text>
+  <text x="1208" y="690" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#666666" text-anchor="end">02</text>
+</svg>

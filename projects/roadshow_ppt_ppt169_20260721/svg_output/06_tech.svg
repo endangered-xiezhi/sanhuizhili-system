@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#0A0A0A" />
+  
+  <circle cx="1280" cy="720" r="600" fill="#2E5A8C" opacity="0.05" filter="blur(100px)"/>
+
+  <g transform="translate(72, 56)">
+    <use data-icon="tabler-outline/engine" x="0" y="0" width="48" height="48" fill="#F2F2F2" stroke-width="1.5"/>
+    <text x="64" y="36" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="44" font-weight="bold" fill="#F2F2F2">技术实现架构与外部生态集成</text>
+  </g>
+
+  <g transform="translate(72, 160)">
+    <!-- Frontend -->
+    <rect x="0" y="0" width="540" height="240" rx="6" fill="#111111" stroke="#333333" stroke-width="1" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="270" y="50">前端能力 (React/Vite)</text>
+    <line x1="40" y1="70" x2="500" y2="70" stroke="#333333" stroke-width="1" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="80" y="120">SPA 单页应用架构</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="80" y="170">docx.js 浏览器端生成 Word 文档</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="80" y="220">本地缓存与日程计算</text>
+
+    <!-- Arrow -->
+    <use data-icon="tabler-outline/arrow-right" x="550" y="90" width="60" height="60" fill="#666666" stroke-width="1.5"/>
+
+    <!-- Backend -->
+    <rect x="620" y="0" width="520" height="240" rx="6" fill="#111111" stroke="#333333" stroke-width="1" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="880" y="50">后端服务 (Express)</text>
+    <line x1="660" y1="70" x2="1100" y2="70" stroke="#333333" stroke-width="1" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="700" y="110">同一进程内外双角色兼顾</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="700" y="150">HMAC-SHA256 安全签名认证机制</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="700" y="190">JSZip 服务端批量渲染文书</text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="700" y="230">轻量级模型接口与失败降级策略</text>
+
+    <!-- Ecosystem Box -->
+    <rect x="0" y="280" width="1140" height="200" rx="6" fill="#141414" stroke="#333333" stroke-width="1" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="570" y="330">外部生态接入与数据源</text>
+    <line x1="40" y1="350" x2="1100" y2="350" stroke="#333333" stroke-width="1" />
+    
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#F2F2F2" x="80" y="400">飞书多维表格: <tspan fill="#B3B3B3">核心主数据源，支持按表名自动匹配或环境变量兜底</tspan></text>
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#F2F2F2" x="80" y="460">飞书妙记及回调: <tspan fill="#B3B3B3">提供高精度 ASR 录音识别与事件回调写回支持</tspan></text>
+  </g>
+
+  <text x="72" y="690" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#666666">三会智理 | 路演汇报</text>
+  <text x="1208" y="690" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#666666" text-anchor="end">06</text>
+</svg>

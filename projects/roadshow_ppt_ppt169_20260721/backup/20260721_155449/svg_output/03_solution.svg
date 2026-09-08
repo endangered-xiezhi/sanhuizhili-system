@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#1A1A24" />
+  
+  <!-- Header -->
+  <g transform="translate(60, 50)">
+    <use data-icon="tabler-outline/shield-check" x="0" y="0" width="36" height="36" fill="#1565C0" stroke-width="2"/>
+    <text x="50" y="28" font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#F8F9FA">大模型+规则引擎的双通道审查</text>
+    <line x1="0" y1="50" x2="1160" y2="50" stroke="#3A3A4A" stroke-width="2" />
+  </g>
+  
+  <!-- Content Top Box (Core Message) -->
+  <g transform="translate(60, 160)">
+    <rect x="0" y="0" width="1160" height="120" rx="12" fill="#2A2A38" />
+    <rect x="0" y="0" width="1160" height="120" rx="12" fill="none" stroke="#1E3A5F" stroke-width="2" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#F8F9FA">
+      <tspan x="580" y="68" text-anchor="middle">结合确定的规则引擎和兜底的大模型能力，实现精准合规。</tspan>
+    </text>
+  </g>
+
+  <!-- Split View for Channels -->
+  <!-- Left Channel: Rule Engine -->
+  <g transform="translate(60, 320)">
+    <rect x="0" y="0" width="560" height="260" rx="12" fill="#2A2A38" />
+    <use data-icon="tabler-outline/engine" x="260" y="30" width="40" height="40" fill="#1565C0" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#1565C0">
+      <tspan x="280" y="100" text-anchor="middle">规则引擎</tspan>
+    </text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#F8F9FA">
+      <tspan x="280" y="150" text-anchor="middle">处理明确的、法定的刚性合规要求</tspan>
+      <tspan x="280" dy="30" text-anchor="middle">（如：表决人数、决议期限等绝对红线）</tspan>
+    </text>
+    <use data-icon="tabler-outline/check" x="260" y="200" width="40" height="40" fill="#00796B" stroke-width="2"/>
+  </g>
+
+  <!-- Right Channel: LLM -->
+  <g transform="translate(660, 320)">
+    <rect x="0" y="0" width="560" height="260" rx="12" fill="#2A2A38" />
+    <use data-icon="tabler-outline/box-model" x="260" y="30" width="40" height="40" fill="#D4AF37" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#D4AF37">
+      <tspan x="280" y="100" text-anchor="middle">大模型辅助</tspan>
+    </text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#F8F9FA">
+      <tspan x="280" y="150" text-anchor="middle">处理语义模糊的意图识别与风险提示</tspan>
+      <tspan x="280" dy="30" text-anchor="middle">（如：议题上下文、潜在逻辑冲突）</tspan>
+    </text>
+    <use data-icon="tabler-outline/check" x="260" y="200" width="40" height="40" fill="#00796B" stroke-width="2"/>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090">三会智理 | 路演汇报</text>
+  <text x="1220" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090" text-anchor="end">03</text>
+</svg>

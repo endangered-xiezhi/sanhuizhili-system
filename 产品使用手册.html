@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>智理·三会产品使用手册</title>
+  <style>
+    :root {
+      --navy: #11243e;
+      --blue: #2764d8;
+      --blue-soft: #edf4ff;
+      --cyan: #61d4cf;
+      --ink: #253449;
+      --muted: #66758a;
+      --line: #d9e1eb;
+      --paper: #ffffff;
+      --canvas: #edf1f6;
+      --green: #167c5a;
+      --amber: #a65f00;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { background: var(--canvas); }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      font-size: 13px;
+      line-height: 1.62;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      position: relative;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 18px auto;
+      padding: 17mm 18mm 16mm;
+      overflow: hidden;
+      background: var(--paper);
+      box-shadow: 0 12px 35px rgba(17, 36, 62, 0.12);
+      page-break-after: always;
+    }
+
+    .page:last-child { page-break-after: auto; }
+
+    .page::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5mm;
+      background: linear-gradient(90deg, var(--navy) 0 72%, var(--blue) 72% 91%, var(--cyan) 91%);
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--blue);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 { color: var(--navy); }
+
+    h1 {
+      margin: 5mm 0 4px;
+      font-family: "Songti SC", "STSong", Georgia, serif;
+      font-size: 31px;
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+    }
+
+    .subtitle {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin: 19px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--line);
+      font-family: "Songti SC", "STSong", Georgia, serif;
+      font-size: 20px;
+      line-height: 1.3;
+    }
+
+    h3 {
+      margin: 13px 0 6px;
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    p { margin: 6px 0 9px; }
+
+    a { color: var(--blue); text-decoration: none; }
+
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin: 17px 0;
+    }
+
+    .meta-card {
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fafcff;
+    }
+
+    .meta-card span {
+      display: block;
+      margin-bottom: 2px;
+      color: var(--muted);
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .meta-card strong { color: var(--navy); font-size: 12px; }
+
+    .lead {
+      margin: 14px 0;
+      padding: 11px 14px;
+      border-left: 4px solid var(--blue);
+      background: var(--blue-soft);
+      color: var(--navy);
+    }
+
+    .note {
+      margin: 10px 0;
+      padding: 9px 12px;
+      border: 1px solid #cfe0ff;
+      border-radius: 7px;
+      background: #f7faff;
+    }
+
+    .warning {
+      border-color: #f0d6aa;
+      background: #fff9ef;
+      color: #714200;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .module {
+      padding: 9px 11px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .module strong {
+      display: block;
+      margin-bottom: 2px;
+      color: var(--navy);
+    }
+
+    ul, ol { margin: 6px 0 9px; padding-left: 20px; }
+    li { margin: 3px 0; }
+
+    table {
+      width: 100%;
+      margin: 9px 0 12px;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 11px;
+      line-height: 1.45;
+    }
+
+    th {
+      padding: 7px 8px;
+      border: 1px solid #cbd6e4;
+      background: var(--navy);
+      color: white;
+      font-weight: 700;
+      text-align: left;
+    }
+
+    td {
+      padding: 7px 8px;
+      border: 1px solid var(--line);
+      vertical-align: top;
+      overflow-wrap: anywhere;
+    }
+
+    tbody tr:nth-child(even) td { background: #f8fafc; }
+
+    .access-table th:nth-child(1) { width: 20%; }
+    .access-table th:nth-child(2) { width: 34%; }
+
+    .steps th:nth-child(1) { width: 12%; }
+    .steps th:nth-child(2) { width: 31%; }
+    .steps th:nth-child(3) { width: 42%; }
+    .steps th:nth-child(4) { width: 15%; }
+
+    .compare th:nth-child(1) { width: 16%; }
+    .compare th:nth-child(2),
+    .compare th:nth-child(3),
+    .compare th:nth-child(4) { width: 28%; }
+
+    .issues th:nth-child(1) { width: 25%; }
+    .issues th:nth-child(2) { width: 32%; }
+
+    code {
+      padding: 1px 4px;
+      border-radius: 4px;
+      background: #edf1f5;
+      color: #21364f;
+      font-family: "SFMono-Regular", Consolas, monospace;
+      font-size: 0.92em;
+    }
+
+    pre {
+      margin: 8px 0;
+      padding: 9px 12px;
+      border-radius: 7px;
+      background: var(--navy);
+      color: #eef5ff;
+      font-size: 11px;
+      line-height: 1.55;
+      overflow: hidden;
+    }
+
+    .checklist {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5px 14px;
+      margin-top: 8px;
+    }
+
+    .checklist div::before {
+      content: "✓";
+      margin-right: 6px;
+      color: var(--green);
+      font-weight: 800;
+    }
+
+    .footer {
+      position: absolute;
+      right: 18mm;
+      bottom: 8mm;
+      left: 18mm;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5px;
+      border-top: 1px solid var(--line);
+      color: #8a96a6;
+      font-size: 9px;
+      letter-spacing: 0.05em;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-right: 4px;
+      padding: 1px 6px;
+      border-radius: 10px;
+      background: var(--blue-soft);
+      color: var(--blue);
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    @media (max-width: 850px) {
+      .page {
+        width: 100%;
+        min-height: auto;
+        margin: 0;
+        padding: 22px 18px 52px;
+        box-shadow: none;
+      }
+      .meta, .grid-2, .checklist { grid-template-columns: 1fr; }
+      table { font-size: 10px; }
+    }
+
+    @media print {
+      @page { size: A4 portrait; margin: 0; }
+      html, body { background: white; }
+      .page {
+        width: 210mm;
+        height: 297mm;
+        min-height: 297mm;
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="page">
+      <p class="eyebrow">Corporate Governance AI · Product Manual</p>
+      <h1>智理·三会产品使用手册</h1>
+      <p class="subtitle">上市公司三会流程自动化与合规协作平台</p>
+
+      <div class="meta">
+        <div class="meta-card"><span>适用版本</span><strong>v2.0 原型版</strong></div>
+        <div class="meta-card"><span>更新日期</span><strong>2026-07-19</strong></div>
+        <div class="meta-card"><span>主要用户</span><strong>董秘、证券事务、法务</strong></div>
+      </div>
+
+      <div class="lead">
+        智理·三会以飞书多维表格为数据中枢，贯通股东会、董事会、监事会的会议筹备、纪要整理、议案表决、文书生成、合规审查和档案导出，帮助上市公司减少重复、繁琐且容易出错的行政工作。
+      </div>
+
+      <h2>一、访问方式</h2>
+      <table class="access-table">
+        <thead>
+          <tr><th>环境</th><th>访问地址</th><th>说明</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>线上测试</td>
+            <td><a href="https://sanhui-zhili.onrender.com/#dashboard">https://sanhui-zhili.onrender.com/#dashboard</a></td>
+            <td>当前公开部署地址，可直接进入“全局控制台”。Render 服务休眠后首次打开可能需要短暂等待。</td>
+          </tr>
+          <tr>
+            <td>账号密码</td>
+            <td>当前无需登录</td>
+            <td>现版本尚未启用真实账号、会话和角色权限，仅适合受控演示。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>浏览器与系统兼容性</h3>
+      <ul>
+        <li><strong>推荐：</strong>Windows 10/11 或较新版本 macOS，使用最新版 Chrome、Microsoft Edge。</li>
+        <li><strong>基础兼容：</strong>Safari、Firefox 可用于普通查看和表单操作；复杂打印、麦克风及音频能力尚未全面回归。</li>
+        <li><strong>暂不建议：</strong>手机、小尺寸平板、IE 及过旧浏览器。录音时需允许浏览器使用麦克风。</li>
+      </ul>
+
+      <h2>二、系统如何工作</h2>
+      <div class="grid-2">
+        <div class="module">
+          <strong>前端工作区</strong>
+          全局控制台、会议管理、会议纪要、合规审查、文书中心、规则文件库、与会人员和系统设置。
+        </div>
+        <div class="module">
+          <strong>后端服务</strong>
+          连接飞书会议与人员数据，生成 Word/ZIP，解析文档，执行规则审查，并对接妙记、AI 和语音服务。
+        </div>
+      </div>
+      <p class="note">当前采用“<strong>飞书主数据 + 浏览器本地缓存</strong>”的混合模式：会议数据优先与飞书同步，部分文书历史和页面偏好保存在当前浏览器。</p>
+
+      <div class="footer"><span>智理·三会｜产品使用手册</span><span>01 / 03</span></div>
+    </section>
+
+    <section class="page">
+      <p class="eyebrow">Typical Workflow</p>
+      <h1 style="font-size:26px">三、典型使用流程</h1>
+      <p class="subtitle">以董秘筹备并完成一次董事会为例</p>
+
+      <p class="note">以下耗时为网络正常、飞书字段配置完整时的参考值，不包含会议实际召开及人工审核时间。完整系统操作通常约 <strong>10—25 分钟</strong>。</p>
+
+      <table class="steps">
+        <thead>
+          <tr><th>步骤</th><th>用户操作</th><th>系统响应</th><th>预计耗时</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1<br>进入系统</strong></td>
+            <td>打开产品地址，进入左侧“会议管理”。</td>
+            <td>读取飞书会议表和人员表，页首显示同步成功或具体错误。</td>
+            <td>3—10 秒</td>
+          </tr>
+          <tr>
+            <td><strong>2<br>创建会议</strong></td>
+            <td>点击“新建会议”，填写名称、类型、日期、地点、方式、联系人和参会人员，点击“创建会议”。</td>
+            <td>在飞书“会议表”创建记录，状态为“筹备中”，并加入前端列表。</td>
+            <td>2—5 分钟<br>提交 1—5 秒</td>
+          </tr>
+          <tr>
+            <td><strong>3<br>准备通知</strong></td>
+            <td>核对与会人员；进入“文书中心”，选择当前会议并生成会议通知。</td>
+            <td>人员名单写回飞书；会议与联系人信息自动带入通知，可检查并下载 Word。</td>
+            <td>2—8 分钟</td>
+          </tr>
+          <tr>
+            <td><strong>4<br>生成材料</strong></td>
+            <td>选择“董事会文件”，生成议案、通知、签到表、表决票，或点击“一键生成并下载全套”。</td>
+            <td>按模板合并会议字段并下载 ZIP。股东会 9 份，董事会、监事会各 6 份。</td>
+            <td>1—3 分钟<br>整包 5—30 秒</td>
+          </tr>
+          <tr>
+            <td><strong>5<br>整理纪要</strong></td>
+            <td>在飞书将会议状态设为“进行中”，同步后点击“开始”；查看妙记，必要时“重新读取”。</td>
+            <td>读取会议、人员、妙记和议案；缺失内容标为“待补充”，确认后可写回会议纪要正文。</td>
+            <td>2—10 分钟<br>另加人工校对</td>
+          </tr>
+          <tr>
+            <td><strong>6<br>议案表决</strong></td>
+            <td>按会议类型生成议案；选择会议、股东和议案生成空白票。真实投票须再次确认后写入。</td>
+            <td>议案写入“议案表”，空白票写入“文书表”，已确认意见写入“表决表”。</td>
+            <td>1—5 分钟</td>
+          </tr>
+          <tr>
+            <td><strong>7<br>合规审查</strong></td>
+            <td>从文书中心点击“合规审查”，或上传本地文件，然后点击“审查”。</td>
+            <td>解析正文并交叉核验飞书事实，输出合规指数、风险、缺失材料和核验轨迹。</td>
+            <td>5—30 秒<br>最长 120 秒</td>
+          </tr>
+          <tr>
+            <td><strong>8<br>复核归档</strong></td>
+            <td>补充“无法判断”项，重新审查；下载单份 Word 或全套 ZIP。</td>
+            <td>更新审查记录和文书分数，浏览器下载最终材料。</td>
+            <td>2—10 分钟</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>流程完成检查</h3>
+      <div class="checklist">
+        <div>会议类型、日期、状态和人员准确</div>
+        <div>飞书同步成功，无关键字段缺失</div>
+        <div>妙记、纪要与议案关联正确</div>
+        <div>文书可正常下载并完成人工校版</div>
+        <div>高风险项已处理或记录说明</div>
+        <div>会议、表决、文书能够相互追溯</div>
+      </div>
+
+      <p class="note warning"><strong>通知提示：</strong>当前页面中的“发送通知成功”是流程演示，尚未接入真实邮件或飞书消息。正式通知应通过公司认可的渠道发送并保存送达、回执证据。</p>
+
+      <div class="footer"><span>智理·三会｜产品使用手册</span><span>02 / 03</span></div>
+    </section>
+
+    <section class="page">
+      <p class="eyebrow">Value & Boundaries</p>
+      <h1 style="font-size:26px">四、差异化说明</h1>
+
+      <p>传统三会工作需要董秘和法务在 Excel、Word、邮件、群聊、录音转写和法规网站之间反复搬运信息。同一会议的名称、日期、人员和议案被多次录入，容易造成通知、签到、表决、纪要和决议版本不一致。</p>
+      <p>智理·三会以一条飞书会议记录为主线，让结构化数据复用于各类文书和合规报告，把人员从复制粘贴、重复排版、材料汇总和机械检查中释放出来。</p>
+
+      <table class="compare">
+        <thead>
+          <tr><th>维度</th><th>传统 Office 方式</th><th>通用 OA / AI 工具</th><th>智理·三会</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>流程覆盖</td>
+            <td>环节分散，依靠人工串联。</td>
+            <td>擅长审批或单次生成。</td>
+            <td>会议、议案、表决、纪要、文书和审查贯通。</td>
+          </tr>
+          <tr>
+            <td>重复录入</td>
+            <td>同一信息多次填写。</td>
+            <td>通常需要反复提供上下文。</td>
+            <td>同一会议数据跨文书复用。</td>
+          </tr>
+          <tr>
+            <td>专业文书</td>
+            <td>人工查找、套用模板。</td>
+            <td>格式和事实稳定性有限。</td>
+            <td>内置股东会 9 类、董事会和监事会各 6 类模板。</td>
+          </tr>
+          <tr>
+            <td>合规检查</td>
+            <td>依赖人工逐份核对。</td>
+            <td>可能补写不存在的事实。</td>
+            <td>基于文件与飞书事实核验，缺失内容标为“无法判断”。</td>
+          </tr>
+          <tr>
+            <td>协作追溯</td>
+            <td>文件和版本容易散落。</td>
+            <td>业务数据关联有限。</td>
+            <td>以飞书多维表格关联会议、人员、表决和文书。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="lead">
+        <strong>核心优势：</strong>产品不是只生成一份文书，而是围绕同一场会议建立可复用的数据源、标准模板、事实核验和会议材料包；AI 负责纪要整理和风险识别，票数统计、模板填充等确定性工作由结构化数据和规则完成。
+      </div>
+
+      <h2>五、当前版本说明</h2>
+      <table class="issues">
+        <thead>
+          <tr><th>情况</th><th>可能表现</th><th>处理建议</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>合规结果未及时更新</strong></td>
+            <td>飞书文书状态或附件已经变化，但审查状态、分数仍为旧值。</td>
+            <td>打开飞书多维表格后端，确认并启动“会议合规 AI 审查工作流”，再修改一次文书记录或附件以重新触发。</td>
+          </tr>
+          <tr>
+            <td>飞书连接或字段不完整</td>
+            <td>页面显示同步失败、待增加字段，部分内容不能写回。</td>
+            <td>检查应用权限、Base token、数据表名称和字段；先保证会议名称、类型、日期、状态、参会人员可用。</td>
+          </tr>
+          <tr>
+            <td>部分数据保存在浏览器</td>
+            <td>清理缓存、使用无痕模式或更换设备后，部分历史记录可能不见。</td>
+            <td>重要材料及时下载并归档；不要在演示环境保存唯一正式副本。</td>
+          </tr>
+          <tr>
+            <td>外部服务偶发不可用</td>
+            <td>妙记、AI、语音转写或文档解析可能超时。</td>
+            <td>保留原始录音和文件，检查服务配置与网络；必要时手工补录后继续生成和审查。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>使用边界</h3>
+      <p class="note warning">本产品用于辅助三会行政和合规工作，不替代律师、董秘及公司治理机构的专业判断，AI 输出不构成法律意见。所有自动生成文书在对外发送、签署或披露前，均须完成人工事实核验和法律审核。</p>
+
+      <p>
+        <span class="tag">流程自动化</span>
+        <span class="tag">飞书协作</span>
+        <span class="tag">文书生成</span>
+        <span class="tag">证据化审查</span>
+      </p>
+
+      <div class="footer"><span>智理·三会｜产品使用手册</span><span>03 / 03</span></div>
+    </section>
+  </main>
+</body>
+</html>

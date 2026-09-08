@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#1A1A24" />
+  
+  <!-- Header -->
+  <g transform="translate(60, 50)">
+    <use data-icon="tabler-outline/box-model" x="0" y="0" width="36" height="36" fill="#1565C0" stroke-width="2"/>
+    <text x="50" y="28" font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#F8F9FA">传统公司治理的困境</text>
+    <line x1="0" y1="50" x2="1160" y2="50" stroke="#3A3A4A" stroke-width="2" />
+  </g>
+  
+  <!-- Content Left Column (Core Message) -->
+  <g transform="translate(60, 160)">
+    <rect x="0" y="0" width="560" height="400" rx="12" fill="#2A2A38" />
+    <rect x="0" y="0" width="8" height="400" fill="#C41E3A" /> <!-- Warning Accent -->
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#F8F9FA">
+      <tspan x="40" y="100">传统合规依靠</tspan>
+      <tspan x="40" dy="50">人工排查，</tspan>
+      <tspan x="40" dy="50" fill="#C41E3A">效率低下</tspan>
+      <tspan x="40" dy="50">且容易出错。</tspan>
+    </text>
+  </g>
+
+  <!-- Content Right Column (Points) -->
+  <g transform="translate(660, 160)">
+    <!-- Point 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="560" height="110" rx="12" fill="#2A2A38" />
+      <use data-icon="tabler-outline/x" x="30" y="35" width="40" height="40" fill="#C41E3A" stroke-width="2"/>
+      <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA">
+        <tspan x="90" y="62">人工审查耗时长，历史决议难追溯。</tspan>
+      </text>
+    </g>
+    <!-- Point 2 -->
+    <g transform="translate(0, 145)">
+      <rect x="0" y="0" width="560" height="110" rx="12" fill="#2A2A38" />
+      <use data-icon="tabler-outline/x" x="30" y="35" width="40" height="40" fill="#C41E3A" stroke-width="2"/>
+      <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA">
+        <tspan x="90" y="62">多端协同信息零散，缺乏统筹。</tspan>
+      </text>
+    </g>
+    <!-- Point 3 -->
+    <g transform="translate(0, 290)">
+      <rect x="0" y="0" width="560" height="110" rx="12" fill="#2A2A38" />
+      <use data-icon="tabler-outline/x" x="30" y="35" width="40" height="40" fill="#C41E3A" stroke-width="2"/>
+      <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA">
+        <tspan x="90" y="62">合规红线易被忽略，存在极高法律风险。</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090">三会智理 | 路演汇报</text>
+  <text x="1220" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090" text-anchor="end">02</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#1A1A24" />
+  
+  <!-- Header -->
+  <g transform="translate(60, 50)">
+    <use data-icon="tabler-outline/box-model" x="0" y="0" width="36" height="36" fill="#1565C0" stroke-width="2"/>
+    <text x="50" y="28" font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#F8F9FA">飞书原生集成与数据安全</text>
+    <line x1="0" y1="50" x2="1160" y2="50" stroke="#3A3A4A" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(60, 160)">
+    <!-- Main Info Block -->
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#F8F9FA">
+      <tspan x="0" y="30">深度绑定飞书生态，实现多维表格的自动流转。</tspan>
+    </text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#B0B0C0">
+      <tspan x="0" y="70">本地化处理，核心数据不出域；多维表格直接作为数据底座与操作前端。</tspan>
+    </text>
+  </g>
+  
+  <!-- Center Image Layout -->
+  <g transform="translate(340, 260)">
+    <rect x="0" y="0" width="600" height="360" rx="12" fill="#2A2A38" />
+    <image href="../images/architecture.png" x="100" y="0" width="400" height="360" preserveAspectRatio="xMidYMid slice" />
+  </g>
+  
+  <!-- Callout nodes -->
+  <!-- Node 1 -->
+  <g transform="translate(60, 300)">
+    <rect x="0" y="0" width="240" height="100" rx="8" fill="#2A2A38" stroke="#1E3A5F" stroke-width="2"/>
+    <use data-icon="tabler-outline/shield-check" x="20" y="30" width="40" height="40" fill="#00796B" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#F8F9FA" font-weight="bold">
+      <tspan x="70" y="55">本地处理</tspan>
+    </text>
+  </g>
+  
+  <!-- Node 2 -->
+  <g transform="translate(60, 450)">
+    <rect x="0" y="0" width="240" height="100" rx="8" fill="#2A2A38" stroke="#1E3A5F" stroke-width="2"/>
+    <use data-icon="tabler-outline/database" x="20" y="30" width="40" height="40" fill="#1565C0" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#F8F9FA" font-weight="bold">
+      <tspan x="70" y="55">多维表格底层</tspan>
+    </text>
+  </g>
+  
+  <!-- Node 3 -->
+  <g transform="translate(980, 375)">
+    <rect x="0" y="0" width="240" height="100" rx="8" fill="#2A2A38" stroke="#1E3A5F" stroke-width="2"/>
+    <use data-icon="tabler-outline/engine" x="20" y="30" width="40" height="40" fill="#D4AF37" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#F8F9FA" font-weight="bold">
+      <tspan x="70" y="55">无缝自动化</tspan>
+    </text>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090">三会智理 | 路演汇报</text>
+  <text x="1220" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090" text-anchor="end">04</text>
+</svg>

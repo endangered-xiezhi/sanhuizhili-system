@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#1A1A24" />
+  
+  <g transform="translate(60, 50)">
+    <use data-icon="tabler-outline/microphone" x="0" y="0" width="48" height="48" fill="#1565C0" stroke-width="2"/>
+    <text x="60" y="36" font-family="'Times New Roman', KaiTi, serif" font-size="48" font-weight="bold" fill="#F8F9FA">核心功能: 会议管理与录音工作台</text>
+    <line x1="0" y1="60" x2="1160" y2="60" stroke="#3A3A4A" stroke-width="2" />
+  </g>
+
+  <g transform="translate(60, 150)">
+    <!-- Meeting Management -->
+    <rect x="0" y="0" width="540" height="350" rx="16" fill="#2A2A38" stroke="#1565C0" stroke-width="3" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#F8F9FA" text-anchor="middle" x="270" y="60">会议管理模块</text>
+    <line x1="50" y1="90" x2="490" y2="90" stroke="#3A3A4A" stroke-width="2" />
+    
+    <use data-icon="tabler-outline/check" x="40" y="120" width="36" height="36" fill="#00796B" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="90" y="145">自动提示法定门槛 (如10%提议权)</text>
+    
+    <use data-icon="tabler-outline/check" x="40" y="180" width="36" height="36" fill="#00796B" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="90" y="205">与会人员智能排序与标记</text>
+
+    <use data-icon="tabler-outline/check" x="40" y="240" width="36" height="36" fill="#00796B" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="90" y="265">数据容错存盘，防缺失与丢失</text>
+
+    <!-- Arrow Right -->
+    <use data-icon="tabler-outline/arrow-right" x="550" y="145" width="60" height="60" fill="#808090" stroke-width="2"/>
+
+    <!-- Recording Workspace -->
+    <rect x="620" y="0" width="540" height="350" rx="16" fill="#2A2A38" stroke="#D4AF37" stroke-width="3" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#F8F9FA" text-anchor="middle" x="890" y="60">录音工作台</text>
+    <line x1="670" y1="90" x2="1110" y2="90" stroke="#3A3A4A" stroke-width="2" />
+    
+    <use data-icon="tabler-outline/microphone" x="660" y="120" width="36" height="36" fill="#D4AF37" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="710" y="145">集成飞书妙记 ASR 语音转写</text>
+
+    <use data-icon="tabler-outline/box-model" x="660" y="180" width="36" height="36" fill="#D4AF37" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="710" y="205">识别文本与议案自动关联对齐</text>
+
+    <use data-icon="tabler-outline/file-text" x="660" y="240" width="36" height="36" fill="#D4AF37" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="710" y="265">在线预览排版，一键导出国标 Word</text>
+  </g>
+
+  <text x="60" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#808090">三会智理 | 路演汇报</text>
+  <text x="1220" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#808090" text-anchor="end">03</text>
+</svg>

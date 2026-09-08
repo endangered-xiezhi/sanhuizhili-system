@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A24" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1A1A24" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  
+  <image href="../images/cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+  <rect x="0" y="0" width="1280" height="720" fill="url(#heroGradient)" />
+  
+  <g transform="translate(60, 240)">
+    <text x="0" y="80" font-family="'Times New Roman', KaiTi, serif" font-size="96" font-weight="bold" fill="#F8F9FA">三会智理</text>
+    
+    <rect x="0" y="140" width="80" height="8" fill="#1565C0" />
+    
+    <text x="0" y="210" font-family="'Times New Roman', KaiTi, serif" font-size="48" font-weight="bold" fill="#B0B0C0">面向上市企业的三会管理与智能合规平台</text>
+    
+    <text x="0" y="380" font-family="'Times New Roman', KaiTi, serif" font-size="28" fill="#808090">将流程自动化 · 将合规交予规则</text>
+  </g>
+</svg>

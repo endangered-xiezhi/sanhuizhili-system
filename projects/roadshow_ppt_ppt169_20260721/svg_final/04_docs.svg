@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#0A0A0A" />
+  
+  <circle cx="1280" cy="720" r="600" fill="#2E5A8C" opacity="0.05" filter="blur(100px)" />
+
+  <g transform="translate(72, 56)">
+    
+  <g transform="translate(0.0, 0.0) scale(2.0)" fill="none" stroke="#F2F2F2" stroke-width="1.5">
+    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+    <path d="M9 9l1 0" />
+    <path d="M9 13l6 0" />
+    <path d="M9 17l6 0" />
+  </g>
+    <text x="64" y="36" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="44" font-weight="bold" fill="#F2F2F2">文书中心与与会人员管理</text>
+  </g>
+
+  <g transform="translate(72, 160)">
+    
+    <path fill="#111111" stroke="#333333" stroke-width="1" d="M6,0 H534 A6,6 0 0 1 540,6 V354 A6,6 0 0 1 534,360 H6 A6,6 0 0 1 0,354 V6 A6,6 0 0 1 6,0 Z" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="270" y="60">文书中心 (一键打包成卷)</text>
+    <line x1="40" y1="90" x2="500" y2="90" stroke="#333333" stroke-width="1" />
+    
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="80" y="145">涵盖会议通知、议程、签到表等</text>
+    
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="80" y="215">支持在线编辑与实时预览导出</text>
+
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="80" y="285">股东会 <tspan fill="#4A90D9" font-weight="bold" font-size="28">9</tspan> 份文书，董监会 <tspan fill="#4A90D9" font-weight="bold" font-size="28">6</tspan> 份文书</text>
+
+    
+    <path fill="#111111" stroke="#333333" stroke-width="1" d="M602,0 H1130 A6,6 0 0 1 1136,6 V354 A6,6 0 0 1 1130,360 H602 A6,6 0 0 1 596,354 V6 A6,6 0 0 1 602,0 Z" />
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="bold" fill="#F2F2F2" text-anchor="middle" x="866" y="60">与会人员矩阵</text>
+    <line x1="636" y1="90" x2="1096" y2="90" stroke="#333333" stroke-width="1" />
+    
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="676" y="145">全景化董监高及股东持股任职信息</text>
+
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="676" y="215">底线合规：独董占比 <tspan fill="#4A90D9" font-weight="bold" font-size="28">33%</tspan> 校验</text>
+
+    <text font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#B3B3B3" x="676" y="285">任期兼职互斥自动拦截与到期预警</text>
+  </g>
+
+  <text x="72" y="690" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#666666">三会智理 | 路演汇报</text>
+  <text x="1208" y="690" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#666666" text-anchor="end">04</text>
+</svg>

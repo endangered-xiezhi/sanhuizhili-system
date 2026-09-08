@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#1A1A24" />
+  
+  <!-- Header -->
+  <g transform="translate(60, 50)">
+    <use data-icon="tabler-outline/arrow-right" x="0" y="0" width="36" height="36" fill="#1565C0" stroke-width="2"/>
+    <text x="50" y="28" font-family="'Times New Roman', KaiTi, serif" font-size="36" font-weight="bold" fill="#F8F9FA">商业模式与未来演进</text>
+    <line x1="0" y1="50" x2="1160" y2="50" stroke="#3A3A4A" stroke-width="2" />
+  </g>
+  
+  <!-- Content Area -->
+  <g transform="translate(60, 160)">
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#F8F9FA">
+      <tspan x="0" y="30">采用 SaaS 订阅制，并向多领域拓展。</tspan>
+    </text>
+  </g>
+  
+  <!-- Left Column: Business Model -->
+  <g transform="translate(60, 260)">
+    <rect x="0" y="0" width="560" height="320" rx="12" fill="#2A2A38" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#D4AF37">
+      <tspan x="280" y="60" text-anchor="middle">商业模式 (SaaS)</tspan>
+    </text>
+    <line x1="180" y1="90" x2="380" y2="90" stroke="#1E3A5F" stroke-width="2" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#F8F9FA">
+      <tspan x="280" y="150" text-anchor="middle">面向企业客户提供按需订阅服务</tspan>
+      <tspan x="280" dy="40" text-anchor="middle">轻量化部署，降低初始成本</tspan>
+      <tspan x="280" dy="40" text-anchor="middle">按席位或模块收费，收入稳健可持续</tspan>
+    </text>
+  </g>
+  
+  <!-- Right Column: Future Evolution -->
+  <g transform="translate(660, 260)">
+    <rect x="0" y="0" width="560" height="320" rx="12" fill="#2A2A38" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="27" font-weight="bold" fill="#1565C0">
+      <tspan x="280" y="60" text-anchor="middle">未来演进 (拓展)</tspan>
+    </text>
+    <line x1="180" y1="90" x2="380" y2="90" stroke="#1E3A5F" stroke-width="2" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="18" fill="#F8F9FA">
+      <tspan x="280" y="150" text-anchor="middle">以“三会”为核心切入点</tspan>
+      <tspan x="280" dy="40" text-anchor="middle">逐步向“投融资合规审查”延展</tspan>
+      <tspan x="280" dy="40" text-anchor="middle">拓展“劳动用工合规管理”矩阵</tspan>
+    </text>
+  </g>
+
+  <!-- Footer -->
+  <text x="60" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090">三会智理 | 路演汇报</text>
+  <text x="1220" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="12" fill="#808090" text-anchor="end">06</text>
+</svg>

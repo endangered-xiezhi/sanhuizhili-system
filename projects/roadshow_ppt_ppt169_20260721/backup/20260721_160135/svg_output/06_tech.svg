@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect x="0" y="0" width="1280" height="720" fill="#1A1A24" />
+  
+  <g transform="translate(60, 50)">
+    <use data-icon="tabler-outline/engine" x="0" y="0" width="48" height="48" fill="#D4AF37" stroke-width="2"/>
+    <text x="60" y="36" font-family="'Times New Roman', KaiTi, serif" font-size="48" font-weight="bold" fill="#F8F9FA">技术实现架构与外部生态集成</text>
+    <line x1="0" y1="60" x2="1160" y2="60" stroke="#3A3A4A" stroke-width="2" />
+  </g>
+
+  <!-- Architecture Flowchart Diagram -->
+  <g transform="translate(60, 150)">
+    <!-- Frontend -->
+    <rect x="0" y="0" width="340" height="320" rx="16" fill="#1E3A5F" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="32" font-weight="bold" fill="#F8F9FA" text-anchor="middle" x="170" y="50">前端能力 (React/Vite)</text>
+    <line x1="20" y1="70" x2="320" y2="70" stroke="#3A3A4A" stroke-width="2" />
+    <use data-icon="tabler-outline/check" x="20" y="100" width="32" height="32" fill="#00796B" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="60" y="125">SPA 单页应用架构</text>
+    <use data-icon="tabler-outline/check" x="20" y="160" width="32" height="32" fill="#00796B" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="60" y="185">docx.js 浏览器端直接生成</text>
+    <use data-icon="tabler-outline/check" x="20" y="220" width="32" height="32" fill="#00796B" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="60" y="245">localStorage 缓存与日程提醒</text>
+
+    <!-- Arrow -->
+    <use data-icon="tabler-outline/arrow-right" x="350" y="120" width="60" height="60" fill="#808090" stroke-width="2"/>
+
+    <!-- Backend -->
+    <rect x="420" y="0" width="340" height="320" rx="16" fill="#2A2A38" stroke="#1565C0" stroke-width="3" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="32" font-weight="bold" fill="#F8F9FA" text-anchor="middle" x="590" y="50">后端服务 (Express)</text>
+    <line x1="440" y1="70" x2="740" y2="70" stroke="#3A3A4A" stroke-width="2" />
+    <use data-icon="tabler-outline/check" x="440" y="100" width="32" height="32" fill="#1565C0" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="480" y="125">同一进程内外双角色兼顾</text>
+    <use data-icon="tabler-outline/check" x="440" y="160" width="32" height="32" fill="#1565C0" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="480" y="185">HMAC-SHA256 签名认证</text>
+    <use data-icon="tabler-outline/check" x="440" y="220" width="32" height="32" fill="#1565C0" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="480" y="245">服务端 JSZip 批量文书渲染</text>
+    <use data-icon="tabler-outline/check" x="440" y="280" width="32" height="32" fill="#1565C0" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#F8F9FA" x="480" y="305">大模型接口失败降级机制</text>
+
+    <!-- Arrow -->
+    <use data-icon="tabler-outline/arrow-right" x="770" y="120" width="60" height="60" fill="#808090" stroke-width="2"/>
+
+    <!-- Ecosystem -->
+    <rect x="840" y="0" width="300" height="320" rx="16" fill="#1E3A5F" />
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="32" font-weight="bold" fill="#F8F9FA" text-anchor="middle" x="990" y="50">外部生态接入</text>
+    <line x1="860" y1="70" x2="1120" y2="70" stroke="#3A3A4A" stroke-width="2" />
+    <use data-icon="tabler-outline/database" x="860" y="100" width="40" height="40" fill="#D4AF37" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="28" font-weight="bold" fill="#D4AF37" x="910" y="130">飞书多维表格主数据源</text>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#B0B0C0" x="860" y="180">支持按表名自动匹配/环境变量兜底</text>
+
+    <use data-icon="tabler-outline/microphone" x="860" y="230" width="40" height="40" fill="#D4AF37" stroke-width="2"/>
+    <text font-family="'Times New Roman', KaiTi, serif" font-size="28" font-weight="bold" fill="#D4AF37" x="910" y="260">飞书妙记及回调支持</text>
+  </g>
+
+  <text x="60" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#808090">三会智理 | 路演汇报</text>
+  <text x="1220" y="690" font-family="'Times New Roman', KaiTi, serif" font-size="24" fill="#808090" text-anchor="end">06</text>
+</svg>
